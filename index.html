@@ -5,12 +5,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Survey Form</title>
 </head>
 <body>
     <h1 id="title"></h1>
 
     <p id="description"></p>
+
+    <form action="" id="survey-form">
+
+      <label for="name" id="name-label">Your name</label>
+      <input type="text" id="name" required placeholder="name:">
+
+      <label for="email" id="email-label">Your email address</label>
+      <input type="email" id="email" required placeholder="email:">
+
+      <label for="number" id="number-label">How satisfied are you with the service, from 0 to 10</label>
+      <input type="number" id="number" min="0" max="10" placeholder="grade:">
+
+      <label for="dropdown">Would you recommend us to a friend?</label>
+      <select id="dropdown">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="notSure">Not sure</option>
+      </select>
+
+      <label for="male">Male</label>
+      <input type="radio" name="attribute" id="male">
+      <label for="female">Female</label>
+      <input type="radio" name="attribute" id="female">
+      <label for="other">Other</label>
+      <input type="radio" name="attribute" id="other">
+
+    </form>
 
 
 </body>
