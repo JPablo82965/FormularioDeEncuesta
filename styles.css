@@ -1,0 +1,27 @@
+.form-label{
+  font-size: 19px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.form-check{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container{
+  max-width: 60%;
+}
+
+.form-control, .form-label, .form-check, .form-select{
+  max-width: 80%;
+}
+
+.form-check {
+  margin-left: 30px;
+}
+
+.btn{
+  min-width: 30%;
+  margin-top: 30px;
+}
